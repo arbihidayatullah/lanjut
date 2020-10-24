@@ -16,7 +16,6 @@ class Home extends BaseController
 		$jurusan['jurusan'] = 'ilmu komputer';
 		echo view('mahasiswa/header', $jurusan);
 		echo view('mahasiswa/index', $data);
-		echo view('mahasiswa/index', $jurusan);
 		echo view('mahasiswa/footer');
 	}
 }
